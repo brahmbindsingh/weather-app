@@ -1,0 +1,121 @@
+{
+    "location": {
+        "city": "Paris",
+        "woeid": 615702,
+        "country": "France",
+        "lat": 48.85693,
+        "long": 2.3412,
+        "timezone_id": "Europe/Paris"
+    },
+    "current_observation": {
+        "pubDate": 1714022482,
+        "wind": {
+            "chill": 46,
+            "direction": "West",
+            "speed": 3
+        },
+        "atmosphere": {
+            "humidity": 79,
+            "visibility": 14.98,
+            "pressure": 1010.2
+        },
+        "astronomy": {
+            "sunrise": "6:38 AM",
+            "sunset": "9:00 PM"
+        },
+        "condition": {
+            "temperature": 41,
+            "text": "Fair"
+        }
+    },
+    "forecasts": [
+        {
+            "day": "Thu",
+            "date": 1714060800,
+            "high": 57,
+            "low": 42,
+            "text": "Partly Cloudy",
+            "code": 30
+        },
+        {
+            "day": "Fri",
+            "date": 1714147200,
+            "high": 61,
+            "low": 39,
+            "text": "Showers",
+            "code": 11
+        },
+        {
+            "day": "Sat",
+            "date": 1714233600,
+            "high": 63,
+            "low": 42,
+            "text": "Showers",
+            "code": 11
+        },
+        {
+            "day": "Sun",
+            "date": 1714320000,
+            "high": 65,
+            "low": 47,
+            "text": "Scattered Showers",
+            "code": 45
+        },
+        {
+            "day": "Mon",
+            "date": 1714406400,
+            "high": 63,
+            "low": 51,
+            "text": "Rain",
+            "code": 12
+        },
+        {
+            "day": "Tue",
+            "date": 1714492800,
+            "high": 66,
+            "low": 53,
+            "text": "Showers",
+            "code": 11
+        },
+        {
+            "day": "Wed",
+            "date": 1714579200,
+            "high": 69,
+            "low": 52,
+            "text": "Showers",
+            "code": 11
+        },
+        {
+            "day": "Thu",
+            "date": 1714665600,
+            "high": 67,
+            "low": 50,
+            "text": "Mostly Cloudy",
+            "code": 28
+        },
+        {
+            "day": "Fri",
+            "date": 1714752000,
+            "high": 64,
+            "low": 50,
+            "text": "Rain",
+            "code": 12
+        },
+        {
+            "day": "Sat",
+            "date": 1714838400,
+            "high": 64,
+            "low": 49,
+            "text": "Showers",
+            "code": 11
+        },
+        {
+            "day": "Sun",
+            "date": 1714924800,
+            "high": 65,
+            "low": 50,
+            "text": "Cloudy",
+            "code": 26
+        }
+    ]
+}

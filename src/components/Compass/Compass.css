@@ -1,0 +1,23 @@
+.compass{
+    width: 100px;
+    height: 100px;
+    position: relative;
+    margin-top: 5px;
+}
+
+.compass img.compass-image{
+    height: 100px;
+    width: 100px;
+}
+
+.compass img.needle{
+    position: absolute;
+    height: 70px;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+       -moz-transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+         -o-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+}

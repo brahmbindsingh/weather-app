@@ -1,0 +1,20 @@
+.today-weather-detail {
+  color: white;
+  text-align: center;
+  letter-spacing: 1px;
+}
+
+.today-weather-detail h1.temprature {
+  font-size: 60px;
+  font-weight: 400;
+}
+
+.today-weather-detail h3.weather-type {
+  font-size: 25px;
+  font-weight: 400;
+}
+
+.today-weather-detail p.weather-description {
+  margin-top: 20px;
+  font-size: 12px;
+}

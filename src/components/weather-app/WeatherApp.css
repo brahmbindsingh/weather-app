@@ -1,0 +1,93 @@
+.weather-app-background {
+  height: 100vh;
+  width: 100vw;
+  background: white;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+@media screen and (max-width: 1000px) {
+  .weather-app-background {
+    height: auto;
+  }
+}
+.weather-app-background .weather-app {
+  height: 90%;
+  width: 90%;
+  background: rgba(0, 0, 0, 0.5);
+  border-radius: 20px;
+  padding: 20px;
+  display: flex;
+}
+@media screen and (max-width: 1000px) {
+  .weather-app-background .weather-app {
+    flex-direction: column;
+  }
+}
+.weather-app-background .weather-app .today-weather {
+  width: 40%;
+  margin-right: 20px;
+}
+@media screen and (max-width: 1000px) {
+  .weather-app-background .weather-app .today-weather {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+}
+.weather-app-background .weather-app .today-weather .today-weather-side {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 90%;
+  justify-content: space-around;
+  background: rgba(0, 0, 0, 0.7);
+  margin: 20px 0;
+  border-radius: 10px;
+  padding: 0 30px;
+}
+.weather-app-background .weather-app .today-weather .today-weather-side .today-weather-cards {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 15px;
+}
+@media screen and (max-width: 1000px) {
+  .weather-app-background .weather-app .today-weather .today-weather-side .today-weather-cards {
+    margin-top: 20px;
+  }
+}
+@media screen and (max-width: 470px) {
+  .weather-app-background .weather-app .today-weather .today-weather-side .today-weather-cards {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
+.weather-app-background .weather-app .weather-forecast {
+  width: 60%;
+}
+@media screen and (max-width: 1000px) {
+  .weather-app-background .weather-app .weather-forecast {
+    width: 100%;
+  }
+}
+.weather-app-background .weather-app .weather-forecast .ten-day-forecast {
+  background: rgba(0, 0, 0, 0.6);
+  padding: 15px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+.weather-app-background .weather-app .weather-forecast .ten-day-forecast .heading {
+  color: #6e8398;
+  font-size: 12px;
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid #6e8398;
+  padding-bottom: 10px;
+}
+.weather-app-background .weather-app .weather-forecast .ten-day-forecast .forecast-list {
+  display: flex;
+  margin: 15px 0;
+  overflow-x: scroll;
+}
+
+/*# sourceMappingURL=WeatherApp.css.map */

@@ -1,0 +1,38 @@
+.forecast-card{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 15px;
+    margin-right: 10px;
+}
+
+.forecast-card p.day{
+    font-size: 12px;
+    margin-bottom: 5px;
+}
+
+.forecast-card p.date{
+    font-size: 10px;
+    color: #6e8398;
+    margin-bottom: 10px;
+}
+
+.forecast-card .temprature{
+    display: flex;
+    align-items: center;
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.forecast-card .temprature p{
+    padding: 0px 5px;
+}
+
+.forecast-card .temprature p.high{
+    border-right: 1px solid #6e8398;
+}
+
+.forecast-card img{
+    height: 20px;
+}

@@ -1,0 +1,23 @@
+.card {
+  padding: 10px;
+  border-radius: 10px;
+  background: rgba(0, 0, 0, 0.8);
+  width: 175px;
+}
+.card .card-heading {
+  color: #6e8398;
+  display: flex;
+  align-items: center;
+}
+
+.card .card-value {
+  color: white;
+  font-size: 25px;
+}
+
+.card .card-description{
+  margin-top: 15px;
+  letter-spacing: 1px;
+  color: white;
+  font-size: 10px;
+}

@@ -1,0 +1,144 @@
+{
+    "meta": {
+        "count": 10,
+        "links": {
+            "self": "https://test.api.amadeus.com/v1/reference-data/locations/cities?keyword=par&max=10"
+        }
+    },
+    "data": [
+        {
+            "type": "location",
+            "subType": "city",
+            "name": "Ampara",
+            "iataCode": "ADP",
+            "address": {
+                "countryCode": "LK",
+                "stateCode": "LK-ZZZ"
+            },
+            "geoCode": {
+                "latitude": 7.29754,
+                "longitude": 81.68202
+            }
+        },
+        {
+            "type": "location",
+            "subType": "city",
+            "name": "Apartado",
+            "iataCode": "APO",
+            "address": {
+                "countryCode": "CO",
+                "stateCode": "CO-ZZZ"
+            },
+            "geoCode": {
+                "latitude": 7.88299,
+                "longitude": -76.62587
+            }
+        },
+        {
+            "type": "location",
+            "subType": "city",
+            "name": "Alto Parnaiba",
+            "iataCode": "APY",
+            "address": {
+                "countryCode": "BR",
+                "stateCode": "BR-MA"
+            },
+            "geoCode": {}
+        },
+        {
+            "type": "location",
+            "subType": "city",
+            "name": "Avon Park",
+            "iataCode": "AVO",
+            "address": {
+                "countryCode": "US",
+                "stateCode": "US-FL"
+            },
+            "geoCode": {
+                "latitude": 27.59587,
+                "longitude": -81.50619
+            }
+        },
+        {
+            "type": "location",
+            "subType": "city",
+            "name": "Katmai National Park",
+            "iataCode": "BKF",
+            "address": {
+                "countryCode": "US",
+                "stateCode": "US-AK"
+            },
+            "geoCode": {}
+        },
+        {
+            "type": "location",
+            "subType": "city",
+            "name": "Paris",
+            "iataCode": "PAR",
+            "address": {
+                "countryCode": "FR",
+                "stateCode": "FR-75"
+            },
+            "geoCode": {
+                "latitude": 48.85341,
+                "longitude": 2.3488
+            }
+        },
+        {
+            "type": "location",
+            "subType": "city",
+            "name": "College Park",
+            "iataCode": "CGS",
+            "address": {
+                "countryCode": "US",
+                "stateCode": "US-MD"
+            },
+            "geoCode": {
+                "latitude": 38.98067,
+                "longitude": -76.93692
+            }
+        },
+        {
+            "type": "location",
+            "subType": "city",
+            "name": "Parauapebas",
+            "iataCode": "CKS",
+            "address": {
+                "countryCode": "BR",
+                "stateCode": "BR-PA"
+            },
+            "geoCode": {
+                "latitude": -6.0675,
+                "longitude": -49.90222
+            }
+        },
+        {
+            "type": "location",
+            "subType": "city",
+            "name": "Sparta",
+            "iataCode": "CMY",
+            "address": {
+                "countryCode": "US",
+                "stateCode": "US-WI"
+            },
+            "geoCode": {
+                "latitude": 43.94413,
+                "longitude": -90.81291
+            }
+        },
+        {
+            "type": "location",
+            "subType": "city",
+            "name": "Chaparral",
+            "iataCode": "CPL",
+            "address": {
+                "countryCode": "CO",
+                "stateCode": "CO-ZZZ"
+            },
+            "geoCode": {
+                "latitude": 3.72315,
+                "longitude": -75.48316
+            }
+        }
+    ]
+}

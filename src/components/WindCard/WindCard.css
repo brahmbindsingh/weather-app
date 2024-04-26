@@ -1,0 +1,51 @@
+.wind-card{
+    padding: 15px;
+    border-radius: 10px;
+    background: rgba(0, 0, 0, 0.5);
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    width: 50%;
+}
+
+.wind-card .left-side{
+    width: 100%;
+    margin-right: 20px;
+}
+
+.wind-card .left-side .heading{
+    color: #6e8398;
+    font-size: 12px;
+    margin-bottom: 10px;
+    display: flex;
+}
+
+.wind-card .left-side .speed-container{
+    display: flex;
+    flex-direction: column;
+}
+
+.wind-card .left-side .speed-container .speeds{
+    display: flex;
+    padding: 10px 0;
+    align-items: center;
+}
+
+.wind-card .left-side .speed-container .speeds:first-child{
+    border-bottom: 1px solid #6e8398;
+}
+
+.wind-card .left-side .speed-container .speeds span.speed{
+    font-size: 25px;
+    margin-right: 5px;
+}
+
+.wind-card .left-side .speed-container .speeds .notations{
+    display: flex;
+    flex-direction: column;
+    font-size: 14px;
+}
+
+.wind-card .left-side .speed-container .speeds .notations span:first-child{
+    color: #6e8398
+}

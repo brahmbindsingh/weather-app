@@ -1,0 +1,53 @@
+.location-search {
+  position: relative;
+}
+
+.location-search .search-bar {
+  background: #34333d;
+  border-radius: 20px;
+  padding: 7px 10px 6px;
+  display: flex;
+  align-items: center;
+}
+.location-search .search-bar i {
+  color: white;
+  margin-right: 10px;
+}
+.location-search .search-bar input {
+  background: transparent;
+  outline: none;
+  border: none;
+  color: white;
+  width: 100%;
+}
+
+.location-search .search-list {
+  position: absolute;
+  top: 30px;
+  background: #34333d;
+  border-radius: 10px;
+  padding: 10px;
+  width: 100%;
+  border: none;
+  outline: none;
+  list-style: none;
+  color: white;
+  height: 0px;
+  overflow-y: scroll;
+  animation: openDown .5s forwards;
+}
+
+.location-search .search-list li {
+  padding-bottom: 5px;
+  margin-bottom: 5px;
+  cursor: pointer;
+}
+
+@keyframes openDown {
+  from{
+    height: 0px;
+  }
+  to{
+    height: 200px;
+  }
+}
