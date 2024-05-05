@@ -11,6 +11,7 @@
 @media screen and (max-width: 1000px) {
   .weather-app-background {
     height: auto;
+    padding: 30px 0;
   }
 }
 .weather-app-background .weather-app {
@@ -33,7 +34,7 @@
 @media screen and (max-width: 1000px) {
   .weather-app-background .weather-app .today-weather {
     width: 100%;
-    margin-bottom: 20px;
+    margin-right: 0;
   }
 }
 .weather-app-background .weather-app .today-weather .today-weather-side {
@@ -45,7 +46,7 @@
   background: rgba(0, 0, 0, 0.7);
   margin: 20px 0;
   border-radius: 10px;
-  padding: 0 30px;
+  padding: 20px 30px;
 }
 .weather-app-background .weather-app .today-weather .today-weather-side .today-weather-cards {
   display: grid;

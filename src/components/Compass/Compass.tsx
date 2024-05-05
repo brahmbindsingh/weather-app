@@ -13,18 +13,26 @@ const Compass = (props: Props) => {
         switch (props.direction.toLowerCase()) {
             case 'west':
             case 'east':
+            case 'e':
+            case 'w':
                 return 90;
 
             case 'north':
             case 'south':
+            case 's':
+            case 'n':
                 return 0;
 
             case 'northeast':
             case 'southwest':
+            case 'sw':
+            case 'ne':
                 return -45;
 
             case 'northwest':
             case 'southeast':
+            case 'nw':
+            case 'se':
                 return 45;
         
             default:
